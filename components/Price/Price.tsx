@@ -12,7 +12,7 @@ const Price = () => {
         <div className='w-[60%] mx-auto grid pt-[6rem] gap-[2rem] lg:gap-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center '>
             <div>
                 {/* Price card */}
-                <PriceCard bg="bg-[#1E1E1]" description='Audit de sécurité' price="19.99" num="1" plan="Starter"/>
+                <PriceCard bg="bg-[#1E1E1]"  price="19.99" num="1" plan="Starter"/>
             </div>
             <div>
                 {/* Price card */}
