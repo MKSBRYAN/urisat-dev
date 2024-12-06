@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Suspense } from 'react'
 import Hero from './Hero/Hero'
 import Features from './Features/Features'
 import CustomerSupport from './CustomerSuport/CustomerSupport'
@@ -9,7 +9,10 @@ import CompanyPartner from './Company/CompanyPartner'
 const Home = () => {
   return (
     <div>
+      <Suspense fallback={"Loading...."}>
       <Hero/>
+      </Suspense>
+     
       <Features/>
       <CustomerSupport/>
       <Price/>
