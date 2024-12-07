@@ -3,6 +3,7 @@ import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import ResponsiveNav from "@/components/Navigation/ResponsiveNav";
 import Footer from "@/components/Footer/Footer";
+import Footers from "@/components/Footer/Footers";
 
 const poppins = JetBrains_Mono({
   weight: ["400", "500", "600", "700", "800"],
@@ -24,7 +25,7 @@ export default function RootLayout({
       <body className={poppins.className}>
        <ResponsiveNav/>
         {children}
-        <Footer/>
+        <Footers/>
         </body>
     </html>
   );

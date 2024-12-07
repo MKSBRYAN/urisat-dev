@@ -8,7 +8,7 @@ import CompanyPartner from './Company/CompanyPartner'
 
 const Home = () => {
   return (
-    <div>
+    <div className=''>
       <Suspense fallback={"Loading...."}>
       <Hero/>
       </Suspense>

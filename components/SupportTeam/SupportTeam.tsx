@@ -9,7 +9,7 @@ const SupportTeam = () => {
     <div className="pt-[7rem] pb-[3rem]">
       <div className="w-[80%] mx-auto items-center grid grid-cols-1 lg:grid-cols-2 gap-[2rem]">
         <div>
-          <h1 className="text-[27px] md:text-[35px] lg:text-[40px] mb-[1rem] font-bold text-black-1 leading-[2.4rem] md:leading-[3rem]">Do you need help? our Support Team ready to help you</h1>
+          <h1 className="text-[27px] md:text-[35px] lg:text-[40px] mb-[1rem] font-bold text-black-1 leading-[2.4rem] md:leading-[3rem]">Unlock the Future of Innovation with Blockchain</h1>
           <p className="text-gray-900 opacity-90 text-[17px] mt-[1rem]">
             Discover The Transfomative Power Of Blockchain Technology, Offering Transparency , Efficiency , and Trust For Individual And Businesses. Embrace innovation, Enhance Opereting , And Stay Ahead in The Digital Age By Exploring Blockchain Today 
           </p>

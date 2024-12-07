@@ -9,7 +9,7 @@ import Icon5 from '@/public/icon5.png'
 
 const Features = () => {
   return (
-    <div className='pt-[5rem] pb-[3rem]'>
+    <div id='features' className='pt-[5rem] pb-[3rem] '>
       <SectionHeading HeadingMini="Ideal Solution for You" HeadingPrimary="Explore the powerfull features driving innovation and decentralization in Web3"/>
       <div className='pt-[5rem] w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center gap-[1.5rem]'>
             <div>

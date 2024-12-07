@@ -19,7 +19,7 @@ const Nav = ({openNav}:Props) => {
                 <Link href={'/'}>Home</Link>
             </li>
             <li className="text-[17px] cursor-pointer  hover:text-amber-600 transition-all duration-100">
-                <Link href={'/service'}>Features</Link>
+                <Link href={'/features'}>Features</Link>
             </li>
             <li className="text-[17px] cursor-pointer hover:text-amber-600 transition-all duration-100">
                 <Link href={'/about'}>Technology</Link>
