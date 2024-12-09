@@ -9,8 +9,8 @@ import Icon5 from '@/public/icon5.png'
 
 const Features = () => {
   return (
-    <div id='features' className='pt-[5rem] pb-[3rem] '>
-      <SectionHeading HeadingMini="Ideal Solution for You" HeadingPrimary="Explore the powerfull features driving innovation and decentralization in Web3"/>
+    <div id='features' className='featureBg opacity-90 shadow-gray-500 shadow-sm mt-[3rem] pt-[5rem] pb-[3rem]'>
+      <SectionHeading HeadingMini="Ideal Solution for You" HeadingPrimary="Explore the powerfull driving innovation and decentralization in Web3"/>
       <div className='pt-[5rem] w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center gap-[1.5rem]'>
             <div>
                 <FeatureCard title={'Decentralization'} descrption='bring your digital assets to life with our NFT expertise In the world of blockchain, Non-Fungible Tokens (NFT) open up immense horizons for creators and collectors. Our NFT services offer you tailor-made solutions to create, manage and monetize your digital assets in an innovative and secure way.' image={Icon1.src} />

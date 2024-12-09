@@ -1,13 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
-import customImage from '@/public/support.jpg'
+import customImage from '@/public/assets/tech.png'
 import { CheckIcon } from '@heroicons/react/16/solid'
 const CustomerSupport = () => {
   return (
-    <div className='pt-[5rem] pb-[3rem]'>
+    <div id='technology' className='pt-[5rem] pb-[3rem]'>
         <div className='w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-[4rem] items-center'>
             <div className='order-2 lg:order-1'>
-                <Image src={customImage} alt='custorm'/>
+                <Image className='img' src={customImage} width={550} height={550} alt='custorm'/>
             </div>
             <div className='order-1 lg:order-2'>
                 <h1 className='text-[20px] md:text-[25px] lg:text-[28px] text-black-1 font-bold leading-[2rem] md:leading-[3rem]'>

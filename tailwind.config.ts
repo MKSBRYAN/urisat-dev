@@ -9,9 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      
       },
       colors:{
         primary: {
@@ -25,7 +23,8 @@ const config: Config = {
           50: "#FAF7F4",
         },
         sky:{
-          1:"#F3F9FF"
+          1:"#F3F9FF",
+          2:''
         },
         black:{
           1:"#1E1E1E"
@@ -38,7 +37,17 @@ const config: Config = {
         primarygradient: {
           primary: "linear(90deg, #F7931A 0%,#FAF7F4 100%)",
         },
+      },
+      keyframes:{
+        slide:{
+          '0%':{backgroundPosition: '0% 50%'},
+          '100%': { backgroundPosition: '100% 50%' },
+        }
+      },
+      animation:{
+        'background-slide':'0% 50%'
       }
+
     },
   },
   plugins: [],

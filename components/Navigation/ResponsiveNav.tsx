@@ -8,7 +8,7 @@ const [showNav, setShoNav]=useState(false);
 const showNavHandler=()=>setShoNav(true);
 const closeNavHandler=()=>setShoNav(false);
   return (
-    <div>
+    <div className=''>
       <Nav openNav={showNavHandler}/>
       <MobileNav nav={showNav} closeNav={closeNavHandler} />
     </div>

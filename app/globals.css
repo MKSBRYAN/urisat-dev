@@ -1,3 +1,73 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.hero{
+    /* background-image: url('/assets/gradient-style-network-connection-background_23-2148891675.avif'); */
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(to right, rgba(0,0,0,120)20%, rgba(0,0,0,.7)40%, rgba(0,0,0,.4)70%, rgba(0,0,0,0)100%), url(/assets/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* -webkit-animation: rotation 2s infinite linear; */
+ 
+}
+.gradient-bg-feature{
+    background-color: #0e0b0b;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image:
+     radial-gradient(at 0% 0%, hsla(253,16%,7%,1),0 transparent 50%),
+     radial-gradient(at 50% 0%, hsla(225,39%,30%,1),0 transparent 40%),
+     radial-gradient(at 100% 0%, rgb(242, 117, 8),0 transparent 50%);
+    }
+.nav_style{
+    background-color: #0e0b0b;
+    background-image: linear-gradient(to right, rgba(0,0,0,1)20%, rgba(0,0,0,.7)40%, rgba(0,0,0,.4)70%, rgba(0,0,0,0.1)100%);
+    position: sticky;
+}
+.featureBg{
+    
+       background-size: cover;
+        background-image: linear-gradient(to right, rgba(0,0,0,1)20%, rgba(0,0,0,.7)40%, rgba(0,0,0,.4)70%, rgba(0,0,0,0.1)100%), url(/assets/blockchain-technology-background-gradient-blue_53876-124648.avif);
+        background-repeat: no-repeat;
+        background-position: center;
+        z-index: -1;
+    }
+
+.featuresGadient{
+    height: auto;
+    width: auto;
+    background-image: linear-gradient(to right, rgba(0,0,0,1)20%, rgba(0,0,0,.7)40%, rgba(0, 0, 0, 0.368)70%, rgba(0,0,0,0)100%);
+}
+.img{
+    animation: move 2s infinite ease alternate;
+}
+.suport{
+    opacity:1;
+    margin: 50px;
+    height: 240px;
+    width: 240px;
+    border-radius:100%;
+    background-size:cover;
+    z-index: -1;
+    background-color: rgba(14, 9, 1, 0.066);
+}
+@keyframes move{
+    from{
+        transform: translateY(-9px);
+    }
+    to{
+        transform: translateX(10px),
+       
+    }
+}
+@keyframes rotation{
+    from{
+        -webkit-transform: rotate(100%);
+    }
+    to{
+        -webkit-transform: rotate(359deg);
+    }
+}
+

@@ -8,21 +8,21 @@ interface Props{
 }
 const Nav = ({openNav}:Props) => {
   return (
-    <div className="h-[12vh] bg-white shadow-md">
-      <div className="w-[85%] flex items-center justify-between mx-auto h-[12vh]">
-        <h1 className="text-[16px] md:text-[25px] font-bold text-slate-800">
+    <div className="nav_style h-[12vh] border-b-1 border-primary-300 shadow-sm shadow-primary-300 relative">
+      <div className="w-[85%] flex items-center justify-between mx-auto h-[12vh] static">
+        <h1 className="text-[16px] md:text-[25px] font-bold  text-primary-50">
           <span className="text-[27px] md:text-[40px] text-primary-700 ">U</span>
           risat
         </h1>
-        <ul className="hidden lg:flex items-center font-bold text-black-1 space-x-10">
+        <ul className="hidden lg:flex items-center font-bold  text-primary-50 space-x-10">
             <li className="text-[17px] cursor-pointer  hover:text-amber-600 transition-all duration-100">
                 <Link href={'/'}>Home</Link>
             </li>
             <li className="text-[17px] cursor-pointer  hover:text-amber-600 transition-all duration-100">
-                <Link href={'/features'}>Features</Link>
+                <Link  href={'#features'}>Features</Link>
             </li>
             <li className="text-[17px] cursor-pointer hover:text-amber-600 transition-all duration-100">
-                <Link href={'/about'}>Technology</Link>
+                <Link href={'#technology'}>Technology</Link>
             </li>
             <li className="text-[17px] cursor-pointer  hover:text-amber-600 transition-all duration-100">
                 <Link href={'/customer'}>Customer</Link>
@@ -34,7 +34,7 @@ const Nav = ({openNav}:Props) => {
         <div className="flex items-center space-x-2 md:space-x-5">
             <ButtonBlue text="Sing Up"/>
             <ButtonRed text="Login"/>
-            <Bars3BottomRightIcon onClick={openNav} className="w-[1.5rem] lg:hidden h-[1.5rem] text-slate-900 cursor-pointer"/>      
+            <Bars3BottomRightIcon onClick={openNav} className="w-[1.5rem] lg:hidden h-[1.5rem] text-primary-300 cursor-pointer"/>      
         </div>
       </div>
     </div>
