@@ -42,10 +42,17 @@ const config: Config = {
         slide:{
           '0%':{backgroundPosition: '0% 50%'},
           '100%': { backgroundPosition: '100% 50%' },
-        }
+        },
+       fadIn:{
+        '0%':{opacity:'0'},
+        '100%':{opacity:'1'}
+       },
+       slideUp: { '0%': { transform: 'translateY(100%)' },
+        '100%': { transform: 'translateY(0)' }, },
+          
       },
-      animation:{
-        'background-slide':'0% 50%'
+        animation:{
+        fadeIn: 'fadeIn 1s ease-in-out', bounce: 'bounce 1s infinite',
       }
 
     },

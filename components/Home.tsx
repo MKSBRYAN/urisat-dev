@@ -9,18 +9,22 @@ import Technology from './Technology/Technology'
 import Particles from 'react-tsparticles'
 import ParticlesBackground from './ParticlesBackground'
 import ScrollToTop from './ScrollToTop/ScrollToTop'
+import AnimatedSection from './Common/AnimatedSection'
+import { AnimatedTestimonialsDemo } from './Testimonial/Testimonia'
 const Home = () => {
   return (
-    <div className='bg-white'>
+    <div className='bg-transparent'>
       {/* <ParticlesBackground/> */}
-      <Suspense fallback={"Loading...."}>
+     
+
       <Hero/>
-      </Suspense>
+      
+     
      
       <Features/>
       <CustomerSupport/>
       <Price/>
-      <Technology/>
+     <AnimatedTestimonialsDemo/>
       <SupportTeam/>
       <ScrollToTop/>
       <CompanyPartner/>

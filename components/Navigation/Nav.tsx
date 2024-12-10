@@ -8,7 +8,7 @@ interface Props{
 }
 const Nav = ({openNav}:Props) => {
   return (
-    <div className="nav_style h-[12vh] border-b-1 border-primary-300 shadow-sm shadow-primary-300 relative">
+    <div className="nav_style h-[12vh] border-b-1 border-primary-300 shadow-sm  shadow-primary-300 relative">
       <div className="w-[85%] flex items-center justify-between mx-auto h-[12vh] static">
         <h1 className="text-[16px] md:text-[25px] font-bold  text-primary-50">
           <span className="text-[27px] md:text-[40px] text-primary-700 ">U</span>

@@ -1,14 +1,8 @@
-export const techItems=[
-    {
-        id:1,
-        title:'Cloud Computing',
-        description:'Our AI solutions drive innovation and efficiency in all our projects Our AI solutions drive innovation and efficiency in all our projects',
-        image:"/public/bitcoin-circuit-white-background_659132-255.jpg"
-    }
-
-]
-
-export const testimonials = [
+import { AnimatedTestimonials } from "@/components/ui/animated-testimonials";
+import { testimonials } from "@/constant";
+  let test= testimonials;
+export function AnimatedTestimonialsDemo() {
+  const testimonials = [
     {
       quote:
         "The attention to detail and innovative features have completely transformed our workflow. This is exactly what we've been looking for.",
@@ -45,3 +39,5 @@ export const testimonials = [
       src: "https://images.unsplash.com/photo-1624561172888-ac93c696e10c?q=80&w=2592&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
   ];
+  return <AnimatedTestimonials testimonials={test} />;
+}

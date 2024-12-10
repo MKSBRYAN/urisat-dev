@@ -8,7 +8,7 @@ interface Props {
 }
 const FeatureCard = ({ title, image, descrption }: Props) => {
   return (
-    <div className="text-center text-primary-50 bg-black-1/60 p-4 rounded-lg border-y-8 border-primary-300 hover:shadow-lg transition-all duration-300 cursor-pointer hover:scale-105">
+    <div className="text-center text-primary-50 bg-black-1/60 p-4 rounded-lg border-y-2 border-primary-300 hover:shadow-lg transition-all duration-300 cursor-pointer hover:scale-105 hover:shadow-primary-300">
       <Image
         src={image}
         alt="icon"

@@ -6,12 +6,15 @@ import Image from 'next/image'
 import heroImage from '@/public/rx-btc.png'
 import AOS  from 'aos';
 import "aos/dist/aos"
+import AnimatedSection from '../Common/AnimatedSection'
  const Hero = () => {
-    useEffect(()=>{
-        AOS.init({})
-    },[])
-  return (
-    <div className='hero animate-background-slide bg-transparent/70 bg-blend-luminosity h-[70vh lg-[88vh] md:h-[80vh] sm:h-[75vh] flex items-center flex-col justify-center'>
+     useEffect(()=>{
+         AOS.init({})
+        },[])
+        return (
+        
+            <div className='hero  bg-transparent/70 bg-blend-luminosity h-[70vh lg-[88vh] md:h-[80vh] sm:h-[75vh] flex items-center flex-col justify-center'>
+
         <div className=' grid grid-cols-1 lg:grid-cols-5 items-center w-[80%] mx-auto'>
             <div  className='col-span-2'>
                 <h1 className='text-[27px] text-primary-50 md:text-[35] lg:text-[40px] mb-[1rem] font-bold leading-[2rem] md:leading-[3rem] bg-gradient-to-r from-primary-700 to-white bg-clip-text text-transparent text-wrap'>
@@ -25,7 +28,7 @@ import "aos/dist/aos"
                 </div>
             </div>
             <div className='col-span-3 hidden sm:block'>
-                <Image src={heroImage} alt='hero' />
+                <Image id='loading' src={heroImage} alt='hero' />
             </div>
         </div>
     </div>
