@@ -4,13 +4,8 @@ import ButtonBlue from '../Button/ButtonBlue'
 import ButtonRed from '../Button/ButtonRed'
 import Image from 'next/image'
 import heroImage from '@/public/rx-btc.png'
-import AOS  from 'aos';
-import "aos/dist/aos"
-import AnimatedSection from '../Common/AnimatedSection'
  const Hero = () => {
-     useEffect(()=>{
-         AOS.init({})
-        },[])
+  
         return (
         
             <div className='hero  bg-transparent/70 bg-blend-luminosity h-[70vh lg-[88vh] md:h-[80vh] sm:h-[75vh] flex items-center flex-col justify-center'>
